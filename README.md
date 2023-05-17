@@ -1,6 +1,6 @@
-# @slider-captcha-server
+# @slider-captcha
 Generate a puzzle slider captcha and display with React component.\
-![](https://raw.githubusercontent.com/memrearal/slider-captcha-server/master/demo.gif)
+
 ## Installation
 React frontend:
 ```
