@@ -60,7 +60,7 @@ const createCaptcha = ({
   return new Promise((resolve) => {
     const ins = sharp(image)
   		.resize({ width: sizes.WIDTH, height: sizes.HEIGHT });
-    return ins
+    resolve(ins
       .composite([
         {
           input: overlay,
@@ -104,7 +104,7 @@ const createCaptcha = ({
                 solution: location.left,
               };
             });
-        });
+        }));
   });
 };
 
